@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rental Kamera</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+        .hero-bg {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+            url('https://images.unsplash.com/photo-1516035069371-29a1b244cc32');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50">
+
+<!-- NAVBAR -->
+<nav class="bg-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between">
+        <h1 class="font-bold text-xl">
+            Rental<span class="text-red-600">Kamera</span>
+        </h1>
+
+        <div>
+            <a href="#" class="bg-red-600 text-white px-4 py-2 rounded-full">Login</a>
+            <a href="#" class="border border-red-600 text-red-600 px-4 py-2 rounded-full">Daftar</a>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero-bg text-white text-center py-20">
+    <h1 class="text-4xl font-bold mb-4">
+        Sewa Kamera Profesional
+    </h1>
+    <p class="mb-6">Tersedia berbagai kamera terbaik</p>
+
+    <input type="text" placeholder="Cari kamera..."
+        class="p-2 w-1/2 text-black rounded">
+</div>
+
+<!-- PRODUK (STATIC) -->
+<div class="max-w-7xl mx-auto p-6 grid grid-cols-1 md:grid-cols-4 gap-5">
+
+    <!-- CARD 1 -->
+    <div class="bg-white shadow rounded">
+        <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32"
+             class="w-full h-40 object-cover">
+
+        <div class="p-3">
+            <h2 class="font-bold">Canon EOS 80D</h2>
+            <p class="text-sm text-gray-500">Merk: Canon</p>
+            <p class="text-red-600 font-bold">Rp 150.000/hari</p>
+
+            <button onclick="alert('Login dulu!')"
+                class="bg-red-600 text-white w-full mt-2 py-1 rounded">
+                Sewa
+            </button>
+        </div>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="bg-white shadow rounded">
+        <img src="https://images.unsplash.com/photo-1516724562728-afc824a36e84"
+             class="w-full h-40 object-cover">
+
+        <div class="p-3">
+            <h2 class="font-bold">Sony A6000</h2>
+            <p class="text-sm text-gray-500">Merk: Sony</p>
+            <p class="text-red-600 font-bold">Rp 120.000/hari</p>
+
+            <button onclick="alert('Login dulu!')"
+                class="bg-red-600 text-white w-full mt-2 py-1 rounded">
+                Sewa
+            </button>
+        </div>
+    </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer class="bg-gray-900 text-white text-center p-4 mt-10">
+    <p>&copy; Rental Kamera</p>
+</footer>
+
+</body>
+</html>
