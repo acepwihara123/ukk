@@ -375,7 +375,7 @@ $total = mysqli_num_rows($query);
                 </div>
             </div>
             <div class="border-t border-gray-800 mt-6 pt-4 text-center text-gray-500 text-xs">
-                <p>&copy; 2023 RentalKamera. All rights reserved.</p>
+                <p>&copy; 2026 RentalKamera.</p>
             </div>
         </div>
     </footer>
